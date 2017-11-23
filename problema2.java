@@ -19,9 +19,13 @@ public class problema2 {
         operador = ler.next();
         switch (operador) {
         case "*" : monthstring = (num1*num2);
+                break;
     	case "+" : monthstring = (num1+num2);
+                break;
     	case "-" : monthstring= (num1-num2);
+                break;
     	case "/" : monthstring = (num1/num2);
+                break;
         }
         System.out.println(+monthstring);
     }}
